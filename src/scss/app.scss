@@ -1,0 +1,30 @@
+.app {
+  height: 100%;
+  padding: 10pt;
+  display: grid;
+  grid-template-columns: 200pt auto;
+  grid-template-rows: 50pt auto 50pt;
+  grid-gap: 10pt;
+
+  .header {
+    background: mediumseagreen;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .sidebar {
+    background: olive;
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+
+  .content {
+    background: teal;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  h1 {
+    color: #ffffff;
+  }
+}
